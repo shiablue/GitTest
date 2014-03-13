@@ -26,8 +26,8 @@
     // Dispose of any resources that can be recreated.
 }
 
-- (IBAction)segmentedValueChanged:(id)sender {
-	
+- (IBAction)segmentedValueChanged:(UISegmentedControl *)sender {
+	NSLog(@"%d",sender.selectedSegmentIndex);
 }
 
 @end
